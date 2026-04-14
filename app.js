@@ -7,7 +7,7 @@ app.use(express.json());
 
 // 🚨 Hardcoded secret
 const SECRET_KEY = "my-super-secret-key";
-
+const API_KEY = "SECRET-123";
 // In-memory board
 let board = Array(9).fill("");
 
